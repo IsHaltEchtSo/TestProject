@@ -202,6 +202,13 @@
                                     <outletCollection property="gestureRecognizers" destination="e6U-m5-AWG" appends="YES" id="mL1-vQ-Nu9"/>
                                 </connections>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9x-64-pQ7">
+                                <rect key="frame" x="142" y="252" width="101" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <gestureRecognizers/>
@@ -228,7 +235,7 @@
                     </connections>
                 </pinchGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1800" y="708"/>
+            <point key="canvasLocation" x="1800.0000000000002" y="707.8125"/>
         </scene>
         <!--Rotation Gesture View Controller-->
         <scene sceneID="iGr-tE-mxy">
