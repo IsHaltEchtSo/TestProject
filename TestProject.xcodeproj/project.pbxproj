@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2283074E244F7FDC000C3DDE /* Sub.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2283074D244F7FDC000C3DDE /* Sub.storyboard */; };
+		22DE681C244DC2BD00859EF1 /* RotationGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DE681B244DC2BD00859EF1 /* RotationGestureViewController.swift */; };
+		22E51B84244D0E5E0027B91E /* PinchGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E51B83244D0E5E0027B91E /* PinchGestureViewController.swift */; };
 		22FB884C244C9D880012CEC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB884B244C9D880012CEC0 /* AppDelegate.swift */; };
 		22FB884E244C9D880012CEC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB884D244C9D880012CEC0 /* SceneDelegate.swift */; };
 		22FB8850244C9D880012CEC0 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FB884F244C9D880012CEC0 /* MasterViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2283074D244F7FDC000C3DDE /* Sub.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sub.storyboard; sourceTree = "<group>"; };
+		22DE681B244DC2BD00859EF1 /* RotationGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureViewController.swift; sourceTree = "<group>"; };
+		22E51B83244D0E5E0027B91E /* PinchGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchGestureViewController.swift; sourceTree = "<group>"; };
 		22FB8848244C9D880012CEC0 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FB884B244C9D880012CEC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22FB884D244C9D880012CEC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,16 +64,43 @@
 		22FB884A244C9D880012CEC0 /* TestProject */ = {
 			isa = PBXGroup;
 			children = (
+				22FB8863244C9D9E0012CEC0 /* Controller */,
+				22FB8862244C9D990012CEC0 /* Model */,
+				22FB8861244C9D960012CEC0 /* View */,
+				22FB8856244C9D890012CEC0 /* Assets.xcassets */,
+				22FB885B244C9D890012CEC0 /* Info.plist */,
+			);
+			path = TestProject;
+			sourceTree = "<group>";
+		};
+		22FB8861244C9D960012CEC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22FB8853244C9D880012CEC0 /* Main.storyboard */,
+				2283074D244F7FDC000C3DDE /* Sub.storyboard */,
+				22FB8858244C9D890012CEC0 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22FB8862244C9D990012CEC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22FB8863244C9D9E0012CEC0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				22FB884B244C9D880012CEC0 /* AppDelegate.swift */,
 				22FB884D244C9D880012CEC0 /* SceneDelegate.swift */,
 				22FB884F244C9D880012CEC0 /* MasterViewController.swift */,
 				22FB8851244C9D880012CEC0 /* DetailViewController.swift */,
-				22FB8853244C9D880012CEC0 /* Main.storyboard */,
-				22FB8856244C9D890012CEC0 /* Assets.xcassets */,
-				22FB8858244C9D890012CEC0 /* LaunchScreen.storyboard */,
-				22FB885B244C9D890012CEC0 /* Info.plist */,
+				22E51B83244D0E5E0027B91E /* PinchGestureViewController.swift */,
+				22DE681B244DC2BD00859EF1 /* RotationGestureViewController.swift */,
 			);
-			path = TestProject;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +164,7 @@
 				22FB885A244C9D890012CEC0 /* LaunchScreen.storyboard in Resources */,
 				22FB8857244C9D890012CEC0 /* Assets.xcassets in Resources */,
 				22FB8855244C9D880012CEC0 /* Main.storyboard in Resources */,
+				2283074E244F7FDC000C3DDE /* Sub.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22DE681C244DC2BD00859EF1 /* RotationGestureViewController.swift in Sources */,
 				22FB884C244C9D880012CEC0 /* AppDelegate.swift in Sources */,
 				22FB884E244C9D880012CEC0 /* SceneDelegate.swift in Sources */,
+				22E51B84244D0E5E0027B91E /* PinchGestureViewController.swift in Sources */,
 				22FB8850244C9D880012CEC0 /* MasterViewController.swift in Sources */,
 				22FB8852244C9D880012CEC0 /* DetailViewController.swift in Sources */,
 			);
